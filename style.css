@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(238, 223, 183);
+    font-family: 'Roboto Slab', serif;
+    color: rgb(88, 85, 85);
+  }
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-field {
+    width: 500px;
+    height: 50px;
+    border: 0px;
+    border-bottom: 3px solid rgb(88, 85, 85);
+    border-radius: 3px;
+    outline: none;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: 20px 0;  
+}
+
+.buttons-wrapper button {
+    height: 50px;
+    border: 2px solid rgb(88, 85, 85);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkox-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    font-weight: bold;
+    padding:0 6px 2px 0;
+    cursor: pointer;
+}
+
+.results-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-results div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-results div {
+    margin: 5px;
+    font-size: 14px;
+}
